@@ -1,0 +1,4491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1312</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QStackedWidget{
+background:teal;
+
+
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>950</width>
+      <height>550</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>950</width>
+      <height>550</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>900</width>
+      <height>550</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="currentIndex">
+     <number>7</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QLabel" name="label_mustafaTRUST_FOUNDATION">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>20</y>
+        <width>551</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Modern No. 20</family>
+        <pointsize>30</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Mustafa Trust Hospital</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="username">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>130</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>USER NAME :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="password">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>230</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>PASSWORD :</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="usernameline">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>170</y>
+        <width>931</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Lucida Bright</family>
+        <pointsize>13</pointsize>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="passwordline">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>270</y>
+        <width>931</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::EchoMode::Password</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_login">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>320</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: GREEN;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: GREEN;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_cancel">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>320</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #A3282F;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #A3282F;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QLabel" name="label_dashboard">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>40</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Modern No. 20</family>
+        <pointsize>26</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Medical Panel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerpatient">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Patient</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removepatient">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>190</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Patients</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removedoctor">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>240</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Doctors</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerdoctor">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Doctor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookappointment">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>290</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushbutton_logout">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>440</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>log out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_viewappointment">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>340</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookaroom">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>390</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Book A Room</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>260</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_Image_Display">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>120</y>
+        <width>511</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::Box</enum>
+      </property>
+      <property name="lineWidth">
+       <number>9</number>
+      </property>
+      <property name="midLineWidth">
+       <number>9</number>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>D:/wallpaper/Web_Photo_Editor (1).jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QLabel" name="label_registerpatient">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>321</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Modern No. 20</family>
+        <pointsize>26</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Register Patient</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>460</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: GREEN;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: GREEN;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>460</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #A3282F;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #A3282F;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_viewappointment_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>350</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushbutton_logout_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>450</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>log out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerdoctor_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>150</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Doctor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removepatient_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Patients</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerpatient_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>100</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Register Patient</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookaroom_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>400</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Book A Room</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookappointment_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>300</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removedoctor_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>250</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Doctors</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_name">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>112</y>
+        <width>561</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_name">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>112</y>
+        <width>77</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_age">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>171</y>
+        <width>49</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Age</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_age">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>170</y>
+        <width>561</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_patientid">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>230</y>
+        <width>561</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_patientid">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>231</y>
+        <width>127</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Patient ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_cnic">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>290</y>
+        <width>561</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_cnic">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>291</y>
+        <width>67</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>CNIC</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_bloodgroup">
+      <property name="geometry">
+       <rect>
+        <x>388</x>
+        <y>351</y>
+        <width>551</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_bloodgroup">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>351</y>
+        <width>160</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Blood Group</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_dignosis">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>410</y>
+        <width>551</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_dignosis">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>411</y>
+        <width>126</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Diagnosis</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QLabel" name="label_registerdoctor">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>321</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Modern No. 20</family>
+        <pointsize>26</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Register Doctor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>460</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: GREEN;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: GREEN;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>460</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #A3282F;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #A3282F;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookappointment_11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>300</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookaroom_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>400</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Book A Room</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerpatient_11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>100</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Patient</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removepatient_11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Patients</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushbutton_logout_9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>450</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>log out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removedoctor_11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>250</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Doctors</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerdoctor_11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>150</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Doctor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_viewappointment_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>350</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Appointment</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_doctorname">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>112</y>
+        <width>531</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_doctorname">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>112</y>
+        <width>77</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_doctorage">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>171</y>
+        <width>67</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>CNIC</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_doctorage">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>170</y>
+        <width>531</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_doctorgender">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>230</y>
+        <width>531</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_doctorgender">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>231</y>
+        <width>91</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Gender</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_doctorcnic">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>290</y>
+        <width>531</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_doctorcnic">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>291</y>
+        <width>49</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Age</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_doctorid">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>351</y>
+        <width>122</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Doctor ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_doctorid">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>350</y>
+        <width>531</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_specialization">
+      <property name="geometry">
+       <rect>
+        <x>409</x>
+        <y>411</y>
+        <width>531</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_specialization">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>411</y>
+        <width>181</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Specialization</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_20">
+     <widget class="QLabel" name="label_viewpatients">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>321</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Modern No. 20</family>
+        <pointsize>26</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>View Patients</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_enterpatientid_viewpatient">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>140</y>
+        <width>271</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_enterpatientid_viewpatient">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>140</y>
+        <width>172</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Enter Patient ID</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_clear">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>140</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #BF360C;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Clear</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_search">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>140</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: GREEN;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: GREEN;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Search</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_patients">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>210</y>
+        <width>681</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <column>
+       <property name="text">
+        <string>Patient_id</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CNIC</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Age</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Blood Group</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Diagnosis</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="pushButton_cancel_viewpatients">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>450</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #A3282F;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #A3282F;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_remove_viewpatients">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>450</y>
+        <width>381</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #BF360C;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Remove</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookaroom_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>400</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Book A Room</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerdoctor_12">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>150</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Doctor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerpatient_12">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>100</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Patient</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removedoctor_12">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>250</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Doctors</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookappointment_12">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>300</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removepatient_12">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Patients</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_viewappointment_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>350</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushbutton_logout_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>450</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>log out</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_21">
+     <widget class="QLabel" name="label_viewdoctor">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>321</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Modern No. 20</family>
+        <pointsize>26</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>View Doctors</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_enterpatientid_viewpatient_2">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>140</y>
+        <width>172</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Enter Doctor ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_enterpatientid_viewdoctor">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>140</y>
+        <width>271</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_search_viewdoctor">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>140</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color:  GREEN;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color:  GREEN;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Search</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_cleaar_viewdoctor">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>140</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #BF360C;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Clear</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_doctor">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>210</y>
+        <width>631</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <column>
+       <property name="text">
+        <string>Doctor_id</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CNIC</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Age</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Gender</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Specialization</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="pushButton_remove_viewdoctor">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>450</y>
+        <width>381</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #BF360C;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Remove</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_cancel_viewdoctor">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>450</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #A3282F;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #A3282F;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerpatient_17">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>100</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Patient</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_viewappointment_13">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>350</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removepatient_17">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Patients</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removedoctor_17">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>250</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Doctors</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushbutton_logout_15">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>450</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>log out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerdoctor_17">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>150</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Doctor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookaroom_13">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>400</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Book A Room</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookappointment_17">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>300</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Appointment</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QLabel" name="label_registerdoctor_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>411</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Modern No. 20</family>
+        <pointsize>26</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Register Appointment</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_enteryourname">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>130</y>
+        <width>191</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_selectyourdoctor">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>120</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Doctor Name</string>
+      </property>
+     </widget>
+     <widget class="QDateTimeEdit" name="dateTimeEdit">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>350</y>
+        <width>251</width>
+        <height>26</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_selectdateandtime">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>350</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Select Date and Time</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_doctorid_9">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>230</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Doctor ID</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_confirm_appointment">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>500</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: GREEN;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: GREEN;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Confirm</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_cencel_appointment">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>500</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #A3282F;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #A3282F;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookappointment_23">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>300</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_viewappointment_19">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>350</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushbutton_logout_21">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>450</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>log out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerdoctor_23">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>150</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Doctor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookaroom_19">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>400</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Book A Room</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerpatient_23">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>100</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Patient</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removedoctor_23">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>250</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Doctors</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removepatient_23">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Patients</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditage">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>230</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>130</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_doctor_id">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>240</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_enteryourage">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>230</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Age</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_enteryourname">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>130</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_22">
+     <widget class="QLabel" name="label_registerdoctor_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>351</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Modern No. 20</family>
+        <pointsize>26</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>View Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_search_viewappointment">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>140</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: GREEN;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: GREEN;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Search</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_enterpatientid_viewpatient_3">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>140</y>
+        <width>172</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Enter Doctor ID</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_clear_viewappointment">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>140</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #BF360C;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Clear</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_enterdoctorid_viewappointment">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>140</y>
+        <width>271</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_cancel_viewappointment">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>440</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #A3282F;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #A3282F;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_remove_viewappointment">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>440</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #BF360C;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Remove</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_appointments">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>190</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <column>
+       <property name="text">
+        <string>Doctor ID</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Doctor Name</string>
+       </property>
+       <property name="font">
+        <font>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Patient Name</string>
+       </property>
+       <property name="font">
+        <font>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Date and Time</string>
+       </property>
+       <property name="font">
+        <font>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="pushButton_viewappointment_20">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>350</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerpatient_24">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>100</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Patient</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerdoctor_24">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>150</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Doctor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookaroom_20">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>400</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Book A Room</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removepatient_24">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Patients</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookappointment_24">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>300</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushbutton_logout_22">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>450</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>log out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removedoctor_24">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>250</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Doctors</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_31">
+     <widget class="QLabel" name="label_appointmenttype_3">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>130</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Room Type </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_cencel_bookaroom">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>460</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #A3282F;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #A3282F;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_selectyourdoctor_3">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>210</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Room No</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_registerdoctor_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>261</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Modern No. 20</family>
+        <pointsize>26</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Book a Room</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_enteryourage_3">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>210</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Enter your Age</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_selectdateandtime_3">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>330</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Select Date </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_confirm_bookaroom">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>460</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: GREEN;
+    color: black;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: GREEN;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Confirm</string>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>330</y>
+        <width>161</width>
+        <height>26</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookappointment_32">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>300</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Appointment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerpatient_32">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>100</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Patient</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removepatient_32">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Patients</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_registerdoctor_32">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>150</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register Doctor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_bookaroom_28">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>400</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Book A Room</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_removedoctor_32">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>250</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Doctors</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushbutton_logout_30">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>450</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>log out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_viewappointment_28">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>350</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background: #145C7C;
+color:white;
+}
+
+
+QPushButton:hover {
+    background-color:  #BF360C;
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>View Appointment</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditage_2">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>220</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>220</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>140</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_enteryourname_3">
+      <property name="geometry">
+       <rect>
+        <x>223</x>
+        <y>132</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Enter your Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_enteryourname_3">
+      <property name="geometry">
+       <rect>
+        <x>411</x>
+        <y>132</y>
+        <width>161</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1312</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

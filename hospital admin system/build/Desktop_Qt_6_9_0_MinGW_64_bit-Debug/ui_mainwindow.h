@@ -1,0 +1,2217 @@
+/********************************************************************************
+** Form generated from reading UI file 'mainwindow.ui'
+**
+** Created by: Qt User Interface Compiler version 6.9.0
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_MAINWINDOW_H
+#define UI_MAINWINDOW_H
+
+#include <QtCore/QVariant>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QDateEdit>
+#include <QtWidgets/QDateTimeEdit>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QStackedWidget>
+#include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTableWidget>
+#include <QtWidgets/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_MainWindow
+{
+public:
+    QWidget *centralwidget;
+    QStackedWidget *stackedWidget;
+    QWidget *page;
+    QLabel *label_mustafaTRUST_FOUNDATION;
+    QLabel *username;
+    QLabel *password;
+    QLineEdit *usernameline;
+    QLineEdit *passwordline;
+    QPushButton *pushButton_login;
+    QPushButton *pushButton_cancel;
+    QWidget *page_3;
+    QLabel *label_dashboard;
+    QPushButton *pushButton_registerpatient;
+    QPushButton *pushButton_removepatient;
+    QPushButton *pushButton_removedoctor;
+    QPushButton *pushButton_registerdoctor;
+    QPushButton *pushButton_bookappointment;
+    QPushButton *pushbutton_logout;
+    QPushButton *pushButton_viewappointment;
+    QPushButton *pushButton_bookaroom;
+    QLabel *label;
+    QLabel *lbl_Image_Display;
+    QWidget *page_4;
+    QLabel *label_registerpatient;
+    QPushButton *pushButton;
+    QPushButton *pushButton_2;
+    QPushButton *pushButton_viewappointment_4;
+    QPushButton *pushbutton_logout_6;
+    QPushButton *pushButton_registerdoctor_8;
+    QPushButton *pushButton_removepatient_8;
+    QPushButton *pushButton_registerpatient_8;
+    QPushButton *pushButton_bookaroom_4;
+    QPushButton *pushButton_bookappointment_8;
+    QPushButton *pushButton_removedoctor_8;
+    QLineEdit *lineEdit_name;
+    QLabel *label_name;
+    QLabel *label_age;
+    QLineEdit *lineEdit_age;
+    QLineEdit *lineEdit_patientid;
+    QLabel *label_patientid;
+    QLineEdit *lineEdit_cnic;
+    QLabel *label_cnic;
+    QLineEdit *lineEdit_bloodgroup;
+    QLabel *label_bloodgroup;
+    QLineEdit *lineEdit_dignosis;
+    QLabel *label_dignosis;
+    QWidget *page_5;
+    QLabel *label_registerdoctor;
+    QPushButton *pushButton_3;
+    QPushButton *pushButton_4;
+    QPushButton *pushButton_bookappointment_11;
+    QPushButton *pushButton_bookaroom_7;
+    QPushButton *pushButton_registerpatient_11;
+    QPushButton *pushButton_removepatient_11;
+    QPushButton *pushbutton_logout_9;
+    QPushButton *pushButton_removedoctor_11;
+    QPushButton *pushButton_registerdoctor_11;
+    QPushButton *pushButton_viewappointment_7;
+    QLineEdit *lineEdit_doctorname;
+    QLabel *label_doctorname;
+    QLabel *label_doctorage;
+    QLineEdit *lineEdit_doctorage;
+    QLineEdit *lineEdit_doctorgender;
+    QLabel *label_doctorgender;
+    QLineEdit *lineEdit_doctorcnic;
+    QLabel *label_doctorcnic;
+    QLabel *label_doctorid;
+    QLineEdit *lineEdit_doctorid;
+    QLineEdit *lineEdit_specialization;
+    QLabel *label_specialization;
+    QWidget *page_20;
+    QLabel *label_viewpatients;
+    QLineEdit *lineEdit_enterpatientid_viewpatient;
+    QLabel *label_enterpatientid_viewpatient;
+    QPushButton *pushButton_clear;
+    QPushButton *pushButton_search;
+    QTableWidget *tableWidget_patients;
+    QPushButton *pushButton_cancel_viewpatients;
+    QPushButton *pushButton_remove_viewpatients;
+    QPushButton *pushButton_bookaroom_8;
+    QPushButton *pushButton_registerdoctor_12;
+    QPushButton *pushButton_registerpatient_12;
+    QPushButton *pushButton_removedoctor_12;
+    QPushButton *pushButton_bookappointment_12;
+    QPushButton *pushButton_removepatient_12;
+    QPushButton *pushButton_viewappointment_8;
+    QPushButton *pushbutton_logout_10;
+    QWidget *page_21;
+    QLabel *label_viewdoctor;
+    QLabel *label_enterpatientid_viewpatient_2;
+    QLineEdit *lineEdit_enterpatientid_viewdoctor;
+    QPushButton *pushButton_search_viewdoctor;
+    QPushButton *pushButton_cleaar_viewdoctor;
+    QTableWidget *tableWidget_doctor;
+    QPushButton *pushButton_remove_viewdoctor;
+    QPushButton *pushButton_cancel_viewdoctor;
+    QPushButton *pushButton_registerpatient_17;
+    QPushButton *pushButton_viewappointment_13;
+    QPushButton *pushButton_removepatient_17;
+    QPushButton *pushButton_removedoctor_17;
+    QPushButton *pushbutton_logout_15;
+    QPushButton *pushButton_registerdoctor_17;
+    QPushButton *pushButton_bookaroom_13;
+    QPushButton *pushButton_bookappointment_17;
+    QWidget *page_2;
+    QLabel *label_registerdoctor_2;
+    QLineEdit *lineEdit_enteryourname;
+    QLabel *label_selectyourdoctor;
+    QDateTimeEdit *dateTimeEdit;
+    QLabel *label_selectdateandtime;
+    QLabel *label_doctorid_9;
+    QPushButton *pushButton_confirm_appointment;
+    QPushButton *pushButton_cencel_appointment;
+    QPushButton *pushButton_bookappointment_23;
+    QPushButton *pushButton_viewappointment_19;
+    QPushButton *pushbutton_logout_21;
+    QPushButton *pushButton_registerdoctor_23;
+    QPushButton *pushButton_bookaroom_19;
+    QPushButton *pushButton_registerpatient_23;
+    QPushButton *pushButton_removedoctor_23;
+    QPushButton *pushButton_removepatient_23;
+    QLineEdit *lineEditage;
+    QLineEdit *lineEdit_2;
+    QLineEdit *lineEdit_doctor_id;
+    QLabel *label_enteryourage;
+    QLabel *label_enteryourname;
+    QWidget *page_22;
+    QLabel *label_registerdoctor_3;
+    QPushButton *pushButton_search_viewappointment;
+    QLabel *label_enterpatientid_viewpatient_3;
+    QPushButton *pushButton_clear_viewappointment;
+    QLineEdit *lineEdit_enterdoctorid_viewappointment;
+    QPushButton *pushButton_cancel_viewappointment;
+    QPushButton *pushButton_remove_viewappointment;
+    QTableWidget *tableWidget_appointments;
+    QPushButton *pushButton_viewappointment_20;
+    QPushButton *pushButton_registerpatient_24;
+    QPushButton *pushButton_registerdoctor_24;
+    QPushButton *pushButton_bookaroom_20;
+    QPushButton *pushButton_removepatient_24;
+    QPushButton *pushButton_bookappointment_24;
+    QPushButton *pushbutton_logout_22;
+    QPushButton *pushButton_removedoctor_24;
+    QWidget *page_31;
+    QLabel *label_appointmenttype_3;
+    QPushButton *pushButton_cencel_bookaroom;
+    QLabel *label_selectyourdoctor_3;
+    QLabel *label_registerdoctor_7;
+    QLabel *label_enteryourage_3;
+    QLabel *label_selectdateandtime_3;
+    QPushButton *pushButton_confirm_bookaroom;
+    QDateEdit *dateEdit;
+    QPushButton *pushButton_bookappointment_32;
+    QPushButton *pushButton_registerpatient_32;
+    QPushButton *pushButton_removepatient_32;
+    QPushButton *pushButton_registerdoctor_32;
+    QPushButton *pushButton_bookaroom_28;
+    QPushButton *pushButton_removedoctor_32;
+    QPushButton *pushbutton_logout_30;
+    QPushButton *pushButton_viewappointment_28;
+    QLineEdit *lineEditage_2;
+    QLineEdit *lineEdit_3;
+    QLineEdit *lineEdit_4;
+    QLabel *label_enteryourname_3;
+    QLineEdit *lineEdit_enteryourname_3;
+    QMenuBar *menubar;
+    QStatusBar *statusbar;
+
+    void setupUi(QMainWindow *MainWindow)
+    {
+        if (MainWindow->objectName().isEmpty())
+            MainWindow->setObjectName("MainWindow");
+        MainWindow->resize(1312, 600);
+        MainWindow->setStyleSheet(QString::fromUtf8("QStackedWidget{\n"
+"background:teal;\n"
+"\n"
+"\n"
+"}"));
+        centralwidget = new QWidget(MainWindow);
+        centralwidget->setObjectName("centralwidget");
+        stackedWidget = new QStackedWidget(centralwidget);
+        stackedWidget->setObjectName("stackedWidget");
+        stackedWidget->setEnabled(true);
+        stackedWidget->setGeometry(QRect(110, 10, 950, 550));
+        stackedWidget->setMinimumSize(QSize(950, 550));
+        stackedWidget->setMaximumSize(QSize(900, 550));
+        QFont font;
+        font.setPointSize(14);
+        font.setBold(true);
+        font.setItalic(true);
+        stackedWidget->setFont(font);
+        page = new QWidget();
+        page->setObjectName("page");
+        label_mustafaTRUST_FOUNDATION = new QLabel(page);
+        label_mustafaTRUST_FOUNDATION->setObjectName("label_mustafaTRUST_FOUNDATION");
+        label_mustafaTRUST_FOUNDATION->setGeometry(QRect(240, 20, 551, 71));
+        QFont font1;
+        font1.setFamilies({QString::fromUtf8("Modern No. 20")});
+        font1.setPointSize(30);
+        font1.setBold(true);
+        font1.setItalic(true);
+        label_mustafaTRUST_FOUNDATION->setFont(font1);
+        label_mustafaTRUST_FOUNDATION->setStyleSheet(QString::fromUtf8(""));
+        username = new QLabel(page);
+        username->setObjectName("username");
+        username->setGeometry(QRect(20, 130, 211, 31));
+        QFont font2;
+        font2.setPointSize(18);
+        font2.setBold(true);
+        font2.setItalic(false);
+        username->setFont(font2);
+        username->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        password = new QLabel(page);
+        password->setObjectName("password");
+        password->setGeometry(QRect(20, 230, 211, 31));
+        password->setFont(font2);
+        password->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        usernameline = new QLineEdit(page);
+        usernameline->setObjectName("usernameline");
+        usernameline->setGeometry(QRect(20, 170, 931, 31));
+        QFont font3;
+        font3.setFamilies({QString::fromUtf8("Lucida Bright")});
+        font3.setPointSize(13);
+        font3.setBold(false);
+        font3.setItalic(true);
+        usernameline->setFont(font3);
+        passwordline = new QLineEdit(page);
+        passwordline->setObjectName("passwordline");
+        passwordline->setGeometry(QRect(20, 270, 931, 31));
+        QFont font4;
+        font4.setPointSize(13);
+        font4.setBold(false);
+        font4.setItalic(true);
+        passwordline->setFont(font4);
+        passwordline->setEchoMode(QLineEdit::EchoMode::Password);
+        pushButton_login = new QPushButton(page);
+        pushButton_login->setObjectName("pushButton_login");
+        pushButton_login->setGeometry(QRect(830, 320, 91, 41));
+        QFont font5;
+        font5.setPointSize(13);
+        font5.setBold(true);
+        font5.setItalic(true);
+        pushButton_login->setFont(font5);
+        pushButton_login->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_cancel = new QPushButton(page);
+        pushButton_cancel->setObjectName("pushButton_cancel");
+        pushButton_cancel->setGeometry(QRect(700, 320, 91, 41));
+        pushButton_cancel->setFont(font5);
+        pushButton_cancel->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"}\n"
+""));
+        stackedWidget->addWidget(page);
+        page_3 = new QWidget();
+        page_3->setObjectName("page_3");
+        label_dashboard = new QLabel(page_3);
+        label_dashboard->setObjectName("label_dashboard");
+        label_dashboard->setGeometry(QRect(340, 40, 291, 51));
+        QFont font6;
+        font6.setFamilies({QString::fromUtf8("Modern No. 20")});
+        font6.setPointSize(26);
+        font6.setBold(true);
+        font6.setItalic(false);
+        label_dashboard->setFont(font6);
+        label_dashboard->setStyleSheet(QString::fromUtf8(""));
+        pushButton_registerpatient = new QPushButton(page_3);
+        pushButton_registerpatient->setObjectName("pushButton_registerpatient");
+        pushButton_registerpatient->setGeometry(QRect(20, 90, 191, 41));
+        QFont font7;
+        font7.setPointSize(10);
+        font7.setBold(true);
+        font7.setItalic(true);
+        pushButton_registerpatient->setFont(font7);
+        pushButton_registerpatient->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removepatient = new QPushButton(page_3);
+        pushButton_removepatient->setObjectName("pushButton_removepatient");
+        pushButton_removepatient->setGeometry(QRect(20, 190, 191, 41));
+        pushButton_removepatient->setFont(font7);
+        pushButton_removepatient->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removedoctor = new QPushButton(page_3);
+        pushButton_removedoctor->setObjectName("pushButton_removedoctor");
+        pushButton_removedoctor->setGeometry(QRect(20, 240, 191, 41));
+        pushButton_removedoctor->setFont(font7);
+        pushButton_removedoctor->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerdoctor = new QPushButton(page_3);
+        pushButton_registerdoctor->setObjectName("pushButton_registerdoctor");
+        pushButton_registerdoctor->setGeometry(QRect(20, 140, 191, 41));
+        pushButton_registerdoctor->setFont(font7);
+        pushButton_registerdoctor->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookappointment = new QPushButton(page_3);
+        pushButton_bookappointment->setObjectName("pushButton_bookappointment");
+        pushButton_bookappointment->setGeometry(QRect(20, 290, 191, 41));
+        pushButton_bookappointment->setFont(font7);
+        pushButton_bookappointment->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushbutton_logout = new QPushButton(page_3);
+        pushbutton_logout->setObjectName("pushbutton_logout");
+        pushbutton_logout->setGeometry(QRect(20, 440, 191, 41));
+        pushbutton_logout->setFont(font7);
+        pushbutton_logout->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_viewappointment = new QPushButton(page_3);
+        pushButton_viewappointment->setObjectName("pushButton_viewappointment");
+        pushButton_viewappointment->setGeometry(QRect(20, 340, 191, 41));
+        pushButton_viewappointment->setFont(font7);
+        pushButton_viewappointment->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookaroom = new QPushButton(page_3);
+        pushButton_bookaroom->setObjectName("pushButton_bookaroom");
+        pushButton_bookaroom->setGeometry(QRect(20, 390, 191, 41));
+        pushButton_bookaroom->setFont(font7);
+        pushButton_bookaroom->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        label = new QLabel(page_3);
+        label->setObjectName("label");
+        label->setGeometry(QRect(390, 260, 63, 20));
+        lbl_Image_Display = new QLabel(page_3);
+        lbl_Image_Display->setObjectName("lbl_Image_Display");
+        lbl_Image_Display->setGeometry(QRect(320, 120, 511, 351));
+        lbl_Image_Display->setFrameShape(QFrame::Shape::Box);
+        lbl_Image_Display->setLineWidth(9);
+        lbl_Image_Display->setMidLineWidth(9);
+        lbl_Image_Display->setPixmap(QPixmap(QString::fromUtf8("D:/wallpaper/Web_Photo_Editor (1).jpg")));
+        lbl_Image_Display->setScaledContents(true);
+        lbl_Image_Display->setMargin(0);
+        stackedWidget->addWidget(page_3);
+        page_4 = new QWidget();
+        page_4->setObjectName("page_4");
+        label_registerpatient = new QLabel(page_4);
+        label_registerpatient->setObjectName("label_registerpatient");
+        label_registerpatient->setGeometry(QRect(20, 30, 321, 61));
+        label_registerpatient->setFont(font6);
+        label_registerpatient->setStyleSheet(QString::fromUtf8(""));
+        pushButton = new QPushButton(page_4);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(810, 460, 121, 41));
+        QFont font8;
+        font8.setPointSize(9);
+        font8.setBold(true);
+        font8.setItalic(false);
+        pushButton->setFont(font8);
+        pushButton->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_2 = new QPushButton(page_4);
+        pushButton_2->setObjectName("pushButton_2");
+        pushButton_2->setGeometry(QRect(670, 460, 93, 41));
+        pushButton_2->setFont(font8);
+        pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_viewappointment_4 = new QPushButton(page_4);
+        pushButton_viewappointment_4->setObjectName("pushButton_viewappointment_4");
+        pushButton_viewappointment_4->setGeometry(QRect(0, 350, 191, 41));
+        pushButton_viewappointment_4->setFont(font7);
+        pushButton_viewappointment_4->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushbutton_logout_6 = new QPushButton(page_4);
+        pushbutton_logout_6->setObjectName("pushbutton_logout_6");
+        pushbutton_logout_6->setGeometry(QRect(0, 450, 191, 41));
+        pushbutton_logout_6->setFont(font7);
+        pushbutton_logout_6->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerdoctor_8 = new QPushButton(page_4);
+        pushButton_registerdoctor_8->setObjectName("pushButton_registerdoctor_8");
+        pushButton_registerdoctor_8->setGeometry(QRect(0, 150, 191, 41));
+        pushButton_registerdoctor_8->setFont(font7);
+        pushButton_registerdoctor_8->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removepatient_8 = new QPushButton(page_4);
+        pushButton_removepatient_8->setObjectName("pushButton_removepatient_8");
+        pushButton_removepatient_8->setGeometry(QRect(0, 200, 191, 41));
+        pushButton_removepatient_8->setFont(font7);
+        pushButton_removepatient_8->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerpatient_8 = new QPushButton(page_4);
+        pushButton_registerpatient_8->setObjectName("pushButton_registerpatient_8");
+        pushButton_registerpatient_8->setGeometry(QRect(0, 100, 191, 41));
+        pushButton_registerpatient_8->setFont(font7);
+        pushButton_registerpatient_8->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+"\n"
+""));
+        pushButton_bookaroom_4 = new QPushButton(page_4);
+        pushButton_bookaroom_4->setObjectName("pushButton_bookaroom_4");
+        pushButton_bookaroom_4->setGeometry(QRect(0, 400, 191, 41));
+        pushButton_bookaroom_4->setFont(font7);
+        pushButton_bookaroom_4->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookappointment_8 = new QPushButton(page_4);
+        pushButton_bookappointment_8->setObjectName("pushButton_bookappointment_8");
+        pushButton_bookappointment_8->setGeometry(QRect(0, 300, 191, 41));
+        pushButton_bookappointment_8->setFont(font7);
+        pushButton_bookappointment_8->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removedoctor_8 = new QPushButton(page_4);
+        pushButton_removedoctor_8->setObjectName("pushButton_removedoctor_8");
+        pushButton_removedoctor_8->setGeometry(QRect(0, 250, 191, 41));
+        pushButton_removedoctor_8->setFont(font7);
+        pushButton_removedoctor_8->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEdit_name = new QLineEdit(page_4);
+        lineEdit_name->setObjectName("lineEdit_name");
+        lineEdit_name->setGeometry(QRect(380, 112, 561, 37));
+        QFont font9;
+        font9.setPointSize(14);
+        font9.setBold(false);
+        font9.setItalic(false);
+        lineEdit_name->setFont(font9);
+        label_name = new QLabel(page_4);
+        label_name->setObjectName("label_name");
+        label_name->setGeometry(QRect(221, 112, 77, 36));
+        QFont font10;
+        font10.setPointSize(16);
+        font10.setBold(true);
+        font10.setItalic(true);
+        label_name->setFont(font10);
+        label_name->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        label_age = new QLabel(page_4);
+        label_age->setObjectName("label_age");
+        label_age->setGeometry(QRect(221, 171, 49, 36));
+        label_age->setFont(font10);
+        label_age->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEdit_age = new QLineEdit(page_4);
+        lineEdit_age->setObjectName("lineEdit_age");
+        lineEdit_age->setGeometry(QRect(380, 170, 561, 37));
+        lineEdit_age->setFont(font9);
+        lineEdit_patientid = new QLineEdit(page_4);
+        lineEdit_patientid->setObjectName("lineEdit_patientid");
+        lineEdit_patientid->setGeometry(QRect(380, 230, 561, 37));
+        lineEdit_patientid->setFont(font9);
+        label_patientid = new QLabel(page_4);
+        label_patientid->setObjectName("label_patientid");
+        label_patientid->setGeometry(QRect(221, 231, 127, 36));
+        label_patientid->setFont(font10);
+        label_patientid->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEdit_cnic = new QLineEdit(page_4);
+        lineEdit_cnic->setObjectName("lineEdit_cnic");
+        lineEdit_cnic->setGeometry(QRect(380, 290, 561, 37));
+        lineEdit_cnic->setFont(font9);
+        label_cnic = new QLabel(page_4);
+        label_cnic->setObjectName("label_cnic");
+        label_cnic->setGeometry(QRect(221, 291, 67, 36));
+        label_cnic->setFont(font10);
+        label_cnic->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEdit_bloodgroup = new QLineEdit(page_4);
+        lineEdit_bloodgroup->setObjectName("lineEdit_bloodgroup");
+        lineEdit_bloodgroup->setGeometry(QRect(388, 351, 551, 37));
+        lineEdit_bloodgroup->setFont(font9);
+        label_bloodgroup = new QLabel(page_4);
+        label_bloodgroup->setObjectName("label_bloodgroup");
+        label_bloodgroup->setGeometry(QRect(221, 351, 160, 36));
+        label_bloodgroup->setFont(font10);
+        label_bloodgroup->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEdit_dignosis = new QLineEdit(page_4);
+        lineEdit_dignosis->setObjectName("lineEdit_dignosis");
+        lineEdit_dignosis->setGeometry(QRect(390, 410, 551, 37));
+        lineEdit_dignosis->setFont(font9);
+        label_dignosis = new QLabel(page_4);
+        label_dignosis->setObjectName("label_dignosis");
+        label_dignosis->setGeometry(QRect(221, 411, 126, 36));
+        label_dignosis->setFont(font10);
+        label_dignosis->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        stackedWidget->addWidget(page_4);
+        page_5 = new QWidget();
+        page_5->setObjectName("page_5");
+        label_registerdoctor = new QLabel(page_5);
+        label_registerdoctor->setObjectName("label_registerdoctor");
+        label_registerdoctor->setGeometry(QRect(20, 30, 321, 61));
+        label_registerdoctor->setFont(font6);
+        label_registerdoctor->setStyleSheet(QString::fromUtf8(""));
+        pushButton_3 = new QPushButton(page_5);
+        pushButton_3->setObjectName("pushButton_3");
+        pushButton_3->setGeometry(QRect(810, 460, 121, 41));
+        pushButton_3->setFont(font8);
+        pushButton_3->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_4 = new QPushButton(page_5);
+        pushButton_4->setObjectName("pushButton_4");
+        pushButton_4->setGeometry(QRect(670, 460, 93, 41));
+        pushButton_4->setFont(font8);
+        pushButton_4->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookappointment_11 = new QPushButton(page_5);
+        pushButton_bookappointment_11->setObjectName("pushButton_bookappointment_11");
+        pushButton_bookappointment_11->setGeometry(QRect(0, 300, 191, 41));
+        pushButton_bookappointment_11->setFont(font7);
+        pushButton_bookappointment_11->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookaroom_7 = new QPushButton(page_5);
+        pushButton_bookaroom_7->setObjectName("pushButton_bookaroom_7");
+        pushButton_bookaroom_7->setGeometry(QRect(0, 400, 191, 41));
+        pushButton_bookaroom_7->setFont(font7);
+        pushButton_bookaroom_7->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerpatient_11 = new QPushButton(page_5);
+        pushButton_registerpatient_11->setObjectName("pushButton_registerpatient_11");
+        pushButton_registerpatient_11->setGeometry(QRect(0, 100, 191, 41));
+        pushButton_registerpatient_11->setFont(font7);
+        pushButton_registerpatient_11->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removepatient_11 = new QPushButton(page_5);
+        pushButton_removepatient_11->setObjectName("pushButton_removepatient_11");
+        pushButton_removepatient_11->setGeometry(QRect(0, 200, 191, 41));
+        pushButton_removepatient_11->setFont(font7);
+        pushButton_removepatient_11->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushbutton_logout_9 = new QPushButton(page_5);
+        pushbutton_logout_9->setObjectName("pushbutton_logout_9");
+        pushbutton_logout_9->setGeometry(QRect(0, 450, 191, 41));
+        pushbutton_logout_9->setFont(font7);
+        pushbutton_logout_9->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removedoctor_11 = new QPushButton(page_5);
+        pushButton_removedoctor_11->setObjectName("pushButton_removedoctor_11");
+        pushButton_removedoctor_11->setGeometry(QRect(0, 250, 191, 41));
+        pushButton_removedoctor_11->setFont(font7);
+        pushButton_removedoctor_11->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerdoctor_11 = new QPushButton(page_5);
+        pushButton_registerdoctor_11->setObjectName("pushButton_registerdoctor_11");
+        pushButton_registerdoctor_11->setGeometry(QRect(0, 150, 191, 41));
+        pushButton_registerdoctor_11->setFont(font7);
+        pushButton_registerdoctor_11->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_viewappointment_7 = new QPushButton(page_5);
+        pushButton_viewappointment_7->setObjectName("pushButton_viewappointment_7");
+        pushButton_viewappointment_7->setGeometry(QRect(0, 350, 191, 41));
+        pushButton_viewappointment_7->setFont(font7);
+        pushButton_viewappointment_7->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEdit_doctorname = new QLineEdit(page_5);
+        lineEdit_doctorname->setObjectName("lineEdit_doctorname");
+        lineEdit_doctorname->setGeometry(QRect(410, 112, 531, 37));
+        lineEdit_doctorname->setFont(font9);
+        label_doctorname = new QLabel(page_5);
+        label_doctorname->setObjectName("label_doctorname");
+        label_doctorname->setGeometry(QRect(221, 112, 77, 36));
+        label_doctorname->setFont(font10);
+        label_doctorname->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        label_doctorage = new QLabel(page_5);
+        label_doctorage->setObjectName("label_doctorage");
+        label_doctorage->setGeometry(QRect(221, 171, 67, 36));
+        label_doctorage->setFont(font10);
+        label_doctorage->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEdit_doctorage = new QLineEdit(page_5);
+        lineEdit_doctorage->setObjectName("lineEdit_doctorage");
+        lineEdit_doctorage->setGeometry(QRect(410, 170, 531, 37));
+        lineEdit_doctorage->setFont(font9);
+        lineEdit_doctorgender = new QLineEdit(page_5);
+        lineEdit_doctorgender->setObjectName("lineEdit_doctorgender");
+        lineEdit_doctorgender->setGeometry(QRect(410, 230, 531, 37));
+        lineEdit_doctorgender->setFont(font9);
+        label_doctorgender = new QLabel(page_5);
+        label_doctorgender->setObjectName("label_doctorgender");
+        label_doctorgender->setGeometry(QRect(221, 231, 91, 36));
+        label_doctorgender->setFont(font10);
+        label_doctorgender->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEdit_doctorcnic = new QLineEdit(page_5);
+        lineEdit_doctorcnic->setObjectName("lineEdit_doctorcnic");
+        lineEdit_doctorcnic->setGeometry(QRect(410, 290, 531, 37));
+        lineEdit_doctorcnic->setFont(font9);
+        label_doctorcnic = new QLabel(page_5);
+        label_doctorcnic->setObjectName("label_doctorcnic");
+        label_doctorcnic->setGeometry(QRect(221, 291, 49, 36));
+        label_doctorcnic->setFont(font10);
+        label_doctorcnic->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        label_doctorid = new QLabel(page_5);
+        label_doctorid->setObjectName("label_doctorid");
+        label_doctorid->setGeometry(QRect(221, 351, 122, 36));
+        label_doctorid->setFont(font10);
+        label_doctorid->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEdit_doctorid = new QLineEdit(page_5);
+        lineEdit_doctorid->setObjectName("lineEdit_doctorid");
+        lineEdit_doctorid->setGeometry(QRect(410, 350, 531, 37));
+        lineEdit_doctorid->setFont(font9);
+        lineEdit_specialization = new QLineEdit(page_5);
+        lineEdit_specialization->setObjectName("lineEdit_specialization");
+        lineEdit_specialization->setGeometry(QRect(409, 411, 531, 37));
+        lineEdit_specialization->setFont(font9);
+        label_specialization = new QLabel(page_5);
+        label_specialization->setObjectName("label_specialization");
+        label_specialization->setGeometry(QRect(220, 411, 181, 36));
+        label_specialization->setFont(font10);
+        label_specialization->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        stackedWidget->addWidget(page_5);
+        page_20 = new QWidget();
+        page_20->setObjectName("page_20");
+        label_viewpatients = new QLabel(page_20);
+        label_viewpatients->setObjectName("label_viewpatients");
+        label_viewpatients->setGeometry(QRect(20, 30, 321, 61));
+        label_viewpatients->setFont(font6);
+        lineEdit_enterpatientid_viewpatient = new QLineEdit(page_20);
+        lineEdit_enterpatientid_viewpatient->setObjectName("lineEdit_enterpatientid_viewpatient");
+        lineEdit_enterpatientid_viewpatient->setGeometry(QRect(420, 140, 271, 37));
+        lineEdit_enterpatientid_viewpatient->setFont(font9);
+        label_enterpatientid_viewpatient = new QLabel(page_20);
+        label_enterpatientid_viewpatient->setObjectName("label_enterpatientid_viewpatient");
+        label_enterpatientid_viewpatient->setGeometry(QRect(230, 140, 172, 31));
+        QFont font11;
+        font11.setPointSize(12);
+        font11.setBold(true);
+        font11.setItalic(false);
+        label_enterpatientid_viewpatient->setFont(font11);
+        label_enterpatientid_viewpatient->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_clear = new QPushButton(page_20);
+        pushButton_clear->setObjectName("pushButton_clear");
+        pushButton_clear->setGeometry(QRect(820, 140, 93, 41));
+        pushButton_clear->setFont(font8);
+        pushButton_clear->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #BF360C;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_search = new QPushButton(page_20);
+        pushButton_search->setObjectName("pushButton_search");
+        pushButton_search->setGeometry(QRect(710, 140, 93, 41));
+        pushButton_search->setFont(font8);
+        pushButton_search->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"}\n"
+""));
+        tableWidget_patients = new QTableWidget(page_20);
+        if (tableWidget_patients->columnCount() < 6)
+            tableWidget_patients->setColumnCount(6);
+        QTableWidgetItem *__qtablewidgetitem = new QTableWidgetItem();
+        tableWidget_patients->setHorizontalHeaderItem(0, __qtablewidgetitem);
+        QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
+        tableWidget_patients->setHorizontalHeaderItem(1, __qtablewidgetitem1);
+        QTableWidgetItem *__qtablewidgetitem2 = new QTableWidgetItem();
+        tableWidget_patients->setHorizontalHeaderItem(2, __qtablewidgetitem2);
+        QTableWidgetItem *__qtablewidgetitem3 = new QTableWidgetItem();
+        tableWidget_patients->setHorizontalHeaderItem(3, __qtablewidgetitem3);
+        QTableWidgetItem *__qtablewidgetitem4 = new QTableWidgetItem();
+        tableWidget_patients->setHorizontalHeaderItem(4, __qtablewidgetitem4);
+        QTableWidgetItem *__qtablewidgetitem5 = new QTableWidgetItem();
+        tableWidget_patients->setHorizontalHeaderItem(5, __qtablewidgetitem5);
+        tableWidget_patients->setObjectName("tableWidget_patients");
+        tableWidget_patients->setGeometry(QRect(250, 210, 681, 221));
+        QFont font12;
+        font12.setPointSize(14);
+        font12.setBold(true);
+        font12.setItalic(false);
+        tableWidget_patients->setFont(font12);
+        pushButton_cancel_viewpatients = new QPushButton(page_20);
+        pushButton_cancel_viewpatients->setObjectName("pushButton_cancel_viewpatients");
+        pushButton_cancel_viewpatients->setGeometry(QRect(770, 450, 93, 41));
+        pushButton_cancel_viewpatients->setFont(font8);
+        pushButton_cancel_viewpatients->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_remove_viewpatients = new QPushButton(page_20);
+        pushButton_remove_viewpatients->setObjectName("pushButton_remove_viewpatients");
+        pushButton_remove_viewpatients->setGeometry(QRect(340, 450, 381, 41));
+        pushButton_remove_viewpatients->setFont(font8);
+        pushButton_remove_viewpatients->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #BF360C;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookaroom_8 = new QPushButton(page_20);
+        pushButton_bookaroom_8->setObjectName("pushButton_bookaroom_8");
+        pushButton_bookaroom_8->setGeometry(QRect(0, 400, 191, 41));
+        pushButton_bookaroom_8->setFont(font7);
+        pushButton_bookaroom_8->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerdoctor_12 = new QPushButton(page_20);
+        pushButton_registerdoctor_12->setObjectName("pushButton_registerdoctor_12");
+        pushButton_registerdoctor_12->setGeometry(QRect(0, 150, 191, 41));
+        pushButton_registerdoctor_12->setFont(font7);
+        pushButton_registerdoctor_12->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerpatient_12 = new QPushButton(page_20);
+        pushButton_registerpatient_12->setObjectName("pushButton_registerpatient_12");
+        pushButton_registerpatient_12->setGeometry(QRect(0, 100, 191, 41));
+        pushButton_registerpatient_12->setFont(font7);
+        pushButton_registerpatient_12->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removedoctor_12 = new QPushButton(page_20);
+        pushButton_removedoctor_12->setObjectName("pushButton_removedoctor_12");
+        pushButton_removedoctor_12->setGeometry(QRect(0, 250, 191, 41));
+        pushButton_removedoctor_12->setFont(font7);
+        pushButton_removedoctor_12->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookappointment_12 = new QPushButton(page_20);
+        pushButton_bookappointment_12->setObjectName("pushButton_bookappointment_12");
+        pushButton_bookappointment_12->setGeometry(QRect(0, 300, 191, 41));
+        pushButton_bookappointment_12->setFont(font7);
+        pushButton_bookappointment_12->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removepatient_12 = new QPushButton(page_20);
+        pushButton_removepatient_12->setObjectName("pushButton_removepatient_12");
+        pushButton_removepatient_12->setGeometry(QRect(0, 200, 191, 41));
+        pushButton_removepatient_12->setFont(font7);
+        pushButton_removepatient_12->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_viewappointment_8 = new QPushButton(page_20);
+        pushButton_viewappointment_8->setObjectName("pushButton_viewappointment_8");
+        pushButton_viewappointment_8->setGeometry(QRect(0, 350, 191, 41));
+        pushButton_viewappointment_8->setFont(font7);
+        pushButton_viewappointment_8->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushbutton_logout_10 = new QPushButton(page_20);
+        pushbutton_logout_10->setObjectName("pushbutton_logout_10");
+        pushbutton_logout_10->setGeometry(QRect(0, 450, 191, 41));
+        pushbutton_logout_10->setFont(font7);
+        pushbutton_logout_10->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        stackedWidget->addWidget(page_20);
+        page_21 = new QWidget();
+        page_21->setObjectName("page_21");
+        label_viewdoctor = new QLabel(page_21);
+        label_viewdoctor->setObjectName("label_viewdoctor");
+        label_viewdoctor->setGeometry(QRect(20, 30, 321, 61));
+        label_viewdoctor->setFont(font6);
+        label_enterpatientid_viewpatient_2 = new QLabel(page_21);
+        label_enterpatientid_viewpatient_2->setObjectName("label_enterpatientid_viewpatient_2");
+        label_enterpatientid_viewpatient_2->setGeometry(QRect(230, 140, 172, 31));
+        label_enterpatientid_viewpatient_2->setFont(font11);
+        label_enterpatientid_viewpatient_2->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEdit_enterpatientid_viewdoctor = new QLineEdit(page_21);
+        lineEdit_enterpatientid_viewdoctor->setObjectName("lineEdit_enterpatientid_viewdoctor");
+        lineEdit_enterpatientid_viewdoctor->setGeometry(QRect(420, 140, 271, 37));
+        lineEdit_enterpatientid_viewdoctor->setFont(font9);
+        pushButton_search_viewdoctor = new QPushButton(page_21);
+        pushButton_search_viewdoctor->setObjectName("pushButton_search_viewdoctor");
+        pushButton_search_viewdoctor->setGeometry(QRect(710, 140, 93, 41));
+        pushButton_search_viewdoctor->setFont(font8);
+        pushButton_search_viewdoctor->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color:  GREEN;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  GREEN;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_cleaar_viewdoctor = new QPushButton(page_21);
+        pushButton_cleaar_viewdoctor->setObjectName("pushButton_cleaar_viewdoctor");
+        pushButton_cleaar_viewdoctor->setGeometry(QRect(820, 140, 93, 41));
+        pushButton_cleaar_viewdoctor->setFont(font8);
+        pushButton_cleaar_viewdoctor->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #BF360C;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        tableWidget_doctor = new QTableWidget(page_21);
+        if (tableWidget_doctor->columnCount() < 6)
+            tableWidget_doctor->setColumnCount(6);
+        QTableWidgetItem *__qtablewidgetitem6 = new QTableWidgetItem();
+        tableWidget_doctor->setHorizontalHeaderItem(0, __qtablewidgetitem6);
+        QTableWidgetItem *__qtablewidgetitem7 = new QTableWidgetItem();
+        tableWidget_doctor->setHorizontalHeaderItem(1, __qtablewidgetitem7);
+        QTableWidgetItem *__qtablewidgetitem8 = new QTableWidgetItem();
+        tableWidget_doctor->setHorizontalHeaderItem(2, __qtablewidgetitem8);
+        QTableWidgetItem *__qtablewidgetitem9 = new QTableWidgetItem();
+        tableWidget_doctor->setHorizontalHeaderItem(3, __qtablewidgetitem9);
+        QTableWidgetItem *__qtablewidgetitem10 = new QTableWidgetItem();
+        tableWidget_doctor->setHorizontalHeaderItem(4, __qtablewidgetitem10);
+        QTableWidgetItem *__qtablewidgetitem11 = new QTableWidgetItem();
+        tableWidget_doctor->setHorizontalHeaderItem(5, __qtablewidgetitem11);
+        tableWidget_doctor->setObjectName("tableWidget_doctor");
+        tableWidget_doctor->setGeometry(QRect(250, 210, 631, 221));
+        tableWidget_doctor->setFont(font12);
+        pushButton_remove_viewdoctor = new QPushButton(page_21);
+        pushButton_remove_viewdoctor->setObjectName("pushButton_remove_viewdoctor");
+        pushButton_remove_viewdoctor->setGeometry(QRect(340, 450, 381, 41));
+        pushButton_remove_viewdoctor->setFont(font8);
+        pushButton_remove_viewdoctor->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #BF360C;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_cancel_viewdoctor = new QPushButton(page_21);
+        pushButton_cancel_viewdoctor->setObjectName("pushButton_cancel_viewdoctor");
+        pushButton_cancel_viewdoctor->setGeometry(QRect(770, 450, 93, 41));
+        pushButton_cancel_viewdoctor->setFont(font8);
+        pushButton_cancel_viewdoctor->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerpatient_17 = new QPushButton(page_21);
+        pushButton_registerpatient_17->setObjectName("pushButton_registerpatient_17");
+        pushButton_registerpatient_17->setGeometry(QRect(0, 100, 191, 41));
+        pushButton_registerpatient_17->setFont(font7);
+        pushButton_registerpatient_17->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_viewappointment_13 = new QPushButton(page_21);
+        pushButton_viewappointment_13->setObjectName("pushButton_viewappointment_13");
+        pushButton_viewappointment_13->setGeometry(QRect(0, 350, 191, 41));
+        pushButton_viewappointment_13->setFont(font7);
+        pushButton_viewappointment_13->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removepatient_17 = new QPushButton(page_21);
+        pushButton_removepatient_17->setObjectName("pushButton_removepatient_17");
+        pushButton_removepatient_17->setGeometry(QRect(0, 200, 191, 41));
+        pushButton_removepatient_17->setFont(font7);
+        pushButton_removepatient_17->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removedoctor_17 = new QPushButton(page_21);
+        pushButton_removedoctor_17->setObjectName("pushButton_removedoctor_17");
+        pushButton_removedoctor_17->setGeometry(QRect(0, 250, 191, 41));
+        pushButton_removedoctor_17->setFont(font7);
+        pushButton_removedoctor_17->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushbutton_logout_15 = new QPushButton(page_21);
+        pushbutton_logout_15->setObjectName("pushbutton_logout_15");
+        pushbutton_logout_15->setGeometry(QRect(0, 450, 191, 41));
+        pushbutton_logout_15->setFont(font7);
+        pushbutton_logout_15->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerdoctor_17 = new QPushButton(page_21);
+        pushButton_registerdoctor_17->setObjectName("pushButton_registerdoctor_17");
+        pushButton_registerdoctor_17->setGeometry(QRect(0, 150, 191, 41));
+        pushButton_registerdoctor_17->setFont(font7);
+        pushButton_registerdoctor_17->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookaroom_13 = new QPushButton(page_21);
+        pushButton_bookaroom_13->setObjectName("pushButton_bookaroom_13");
+        pushButton_bookaroom_13->setGeometry(QRect(0, 400, 191, 41));
+        pushButton_bookaroom_13->setFont(font7);
+        pushButton_bookaroom_13->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookappointment_17 = new QPushButton(page_21);
+        pushButton_bookappointment_17->setObjectName("pushButton_bookappointment_17");
+        pushButton_bookappointment_17->setGeometry(QRect(0, 300, 191, 41));
+        pushButton_bookappointment_17->setFont(font7);
+        pushButton_bookappointment_17->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        stackedWidget->addWidget(page_21);
+        page_2 = new QWidget();
+        page_2->setObjectName("page_2");
+        label_registerdoctor_2 = new QLabel(page_2);
+        label_registerdoctor_2->setObjectName("label_registerdoctor_2");
+        label_registerdoctor_2->setGeometry(QRect(20, 30, 411, 61));
+        label_registerdoctor_2->setFont(font6);
+        label_registerdoctor_2->setStyleSheet(QString::fromUtf8(""));
+        lineEdit_enteryourname = new QLineEdit(page_2);
+        lineEdit_enteryourname->setObjectName("lineEdit_enteryourname");
+        lineEdit_enteryourname->setGeometry(QRect(300, 130, 191, 37));
+        lineEdit_enteryourname->setFont(font9);
+        label_selectyourdoctor = new QLabel(page_2);
+        label_selectyourdoctor->setObjectName("label_selectyourdoctor");
+        label_selectyourdoctor->setGeometry(QRect(580, 120, 141, 41));
+        label_selectyourdoctor->setFont(font11);
+        label_selectyourdoctor->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        dateTimeEdit = new QDateTimeEdit(page_2);
+        dateTimeEdit->setObjectName("dateTimeEdit");
+        dateTimeEdit->setGeometry(QRect(490, 350, 251, 26));
+        label_selectdateandtime = new QLabel(page_2);
+        label_selectdateandtime->setObjectName("label_selectdateandtime");
+        label_selectdateandtime->setGeometry(QRect(220, 350, 241, 31));
+        label_selectdateandtime->setFont(font11);
+        label_selectdateandtime->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        label_doctorid_9 = new QLabel(page_2);
+        label_doctorid_9->setObjectName("label_doctorid_9");
+        label_doctorid_9->setGeometry(QRect(580, 230, 111, 41));
+        label_doctorid_9->setFont(font11);
+        label_doctorid_9->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_confirm_appointment = new QPushButton(page_2);
+        pushButton_confirm_appointment->setObjectName("pushButton_confirm_appointment");
+        pushButton_confirm_appointment->setGeometry(QRect(820, 500, 111, 41));
+        pushButton_confirm_appointment->setFont(font8);
+        pushButton_confirm_appointment->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_cencel_appointment = new QPushButton(page_2);
+        pushButton_cencel_appointment->setObjectName("pushButton_cencel_appointment");
+        pushButton_cencel_appointment->setGeometry(QRect(670, 500, 111, 41));
+        pushButton_cencel_appointment->setFont(font);
+        pushButton_cencel_appointment->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookappointment_23 = new QPushButton(page_2);
+        pushButton_bookappointment_23->setObjectName("pushButton_bookappointment_23");
+        pushButton_bookappointment_23->setGeometry(QRect(0, 300, 191, 41));
+        pushButton_bookappointment_23->setFont(font7);
+        pushButton_bookappointment_23->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_viewappointment_19 = new QPushButton(page_2);
+        pushButton_viewappointment_19->setObjectName("pushButton_viewappointment_19");
+        pushButton_viewappointment_19->setGeometry(QRect(0, 350, 191, 41));
+        pushButton_viewappointment_19->setFont(font7);
+        pushButton_viewappointment_19->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushbutton_logout_21 = new QPushButton(page_2);
+        pushbutton_logout_21->setObjectName("pushbutton_logout_21");
+        pushbutton_logout_21->setGeometry(QRect(0, 450, 191, 41));
+        pushbutton_logout_21->setFont(font7);
+        pushbutton_logout_21->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerdoctor_23 = new QPushButton(page_2);
+        pushButton_registerdoctor_23->setObjectName("pushButton_registerdoctor_23");
+        pushButton_registerdoctor_23->setGeometry(QRect(0, 150, 191, 41));
+        pushButton_registerdoctor_23->setFont(font7);
+        pushButton_registerdoctor_23->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookaroom_19 = new QPushButton(page_2);
+        pushButton_bookaroom_19->setObjectName("pushButton_bookaroom_19");
+        pushButton_bookaroom_19->setGeometry(QRect(0, 400, 191, 41));
+        pushButton_bookaroom_19->setFont(font7);
+        pushButton_bookaroom_19->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerpatient_23 = new QPushButton(page_2);
+        pushButton_registerpatient_23->setObjectName("pushButton_registerpatient_23");
+        pushButton_registerpatient_23->setGeometry(QRect(0, 100, 191, 41));
+        pushButton_registerpatient_23->setFont(font7);
+        pushButton_registerpatient_23->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removedoctor_23 = new QPushButton(page_2);
+        pushButton_removedoctor_23->setObjectName("pushButton_removedoctor_23");
+        pushButton_removedoctor_23->setGeometry(QRect(0, 250, 191, 41));
+        pushButton_removedoctor_23->setFont(font7);
+        pushButton_removedoctor_23->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removepatient_23 = new QPushButton(page_2);
+        pushButton_removepatient_23->setObjectName("pushButton_removepatient_23");
+        pushButton_removepatient_23->setGeometry(QRect(0, 200, 191, 41));
+        pushButton_removepatient_23->setFont(font7);
+        pushButton_removepatient_23->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEditage = new QLineEdit(page_2);
+        lineEditage->setObjectName("lineEditage");
+        lineEditage->setGeometry(QRect(300, 230, 191, 31));
+        lineEditage->setFont(font9);
+        lineEdit_2 = new QLineEdit(page_2);
+        lineEdit_2->setObjectName("lineEdit_2");
+        lineEdit_2->setGeometry(QRect(750, 130, 141, 31));
+        lineEdit_2->setFont(font9);
+        lineEdit_doctor_id = new QLineEdit(page_2);
+        lineEdit_doctor_id->setObjectName("lineEdit_doctor_id");
+        lineEdit_doctor_id->setGeometry(QRect(750, 240, 151, 31));
+        lineEdit_doctor_id->setFont(font9);
+        label_enteryourage = new QLabel(page_2);
+        label_enteryourage->setObjectName("label_enteryourage");
+        label_enteryourage->setGeometry(QRect(220, 230, 51, 31));
+        label_enteryourage->setFont(font11);
+        label_enteryourage->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        label_enteryourname = new QLabel(page_2);
+        label_enteryourname->setObjectName("label_enteryourname");
+        label_enteryourname->setGeometry(QRect(220, 130, 71, 31));
+        label_enteryourname->setFont(font11);
+        label_enteryourname->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        stackedWidget->addWidget(page_2);
+        page_22 = new QWidget();
+        page_22->setObjectName("page_22");
+        label_registerdoctor_3 = new QLabel(page_22);
+        label_registerdoctor_3->setObjectName("label_registerdoctor_3");
+        label_registerdoctor_3->setGeometry(QRect(20, 30, 351, 61));
+        label_registerdoctor_3->setFont(font6);
+        label_registerdoctor_3->setStyleSheet(QString::fromUtf8(""));
+        pushButton_search_viewappointment = new QPushButton(page_22);
+        pushButton_search_viewappointment->setObjectName("pushButton_search_viewappointment");
+        pushButton_search_viewappointment->setGeometry(QRect(710, 140, 93, 41));
+        pushButton_search_viewappointment->setFont(font8);
+        pushButton_search_viewappointment->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"}\n"
+""));
+        label_enterpatientid_viewpatient_3 = new QLabel(page_22);
+        label_enterpatientid_viewpatient_3->setObjectName("label_enterpatientid_viewpatient_3");
+        label_enterpatientid_viewpatient_3->setGeometry(QRect(240, 140, 172, 31));
+        label_enterpatientid_viewpatient_3->setFont(font11);
+        label_enterpatientid_viewpatient_3->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_clear_viewappointment = new QPushButton(page_22);
+        pushButton_clear_viewappointment->setObjectName("pushButton_clear_viewappointment");
+        pushButton_clear_viewappointment->setGeometry(QRect(820, 140, 93, 41));
+        pushButton_clear_viewappointment->setFont(font8);
+        pushButton_clear_viewappointment->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #BF360C;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEdit_enterdoctorid_viewappointment = new QLineEdit(page_22);
+        lineEdit_enterdoctorid_viewappointment->setObjectName("lineEdit_enterdoctorid_viewappointment");
+        lineEdit_enterdoctorid_viewappointment->setGeometry(QRect(430, 140, 271, 37));
+        lineEdit_enterdoctorid_viewappointment->setFont(font9);
+        pushButton_cancel_viewappointment = new QPushButton(page_22);
+        pushButton_cancel_viewappointment->setObjectName("pushButton_cancel_viewappointment");
+        pushButton_cancel_viewappointment->setGeometry(QRect(770, 440, 93, 41));
+        pushButton_cancel_viewappointment->setFont(font8);
+        pushButton_cancel_viewappointment->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_remove_viewappointment = new QPushButton(page_22);
+        pushButton_remove_viewappointment->setObjectName("pushButton_remove_viewappointment");
+        pushButton_remove_viewappointment->setGeometry(QRect(370, 440, 301, 41));
+        pushButton_remove_viewappointment->setFont(font8);
+        pushButton_remove_viewappointment->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #BF360C;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        tableWidget_appointments = new QTableWidget(page_22);
+        if (tableWidget_appointments->columnCount() < 4)
+            tableWidget_appointments->setColumnCount(4);
+        QFont font13;
+        font13.setPointSize(9);
+        font13.setBold(true);
+        font13.setKerning(true);
+        QTableWidgetItem *__qtablewidgetitem12 = new QTableWidgetItem();
+        __qtablewidgetitem12->setFont(font13);
+        tableWidget_appointments->setHorizontalHeaderItem(0, __qtablewidgetitem12);
+        QFont font14;
+        font14.setBold(true);
+        QTableWidgetItem *__qtablewidgetitem13 = new QTableWidgetItem();
+        __qtablewidgetitem13->setFont(font14);
+        tableWidget_appointments->setHorizontalHeaderItem(1, __qtablewidgetitem13);
+        QTableWidgetItem *__qtablewidgetitem14 = new QTableWidgetItem();
+        __qtablewidgetitem14->setFont(font14);
+        tableWidget_appointments->setHorizontalHeaderItem(2, __qtablewidgetitem14);
+        QTableWidgetItem *__qtablewidgetitem15 = new QTableWidgetItem();
+        __qtablewidgetitem15->setFont(font14);
+        tableWidget_appointments->setHorizontalHeaderItem(3, __qtablewidgetitem15);
+        tableWidget_appointments->setObjectName("tableWidget_appointments");
+        tableWidget_appointments->setGeometry(QRect(290, 190, 541, 221));
+        tableWidget_appointments->setMinimumSize(QSize(0, 0));
+        pushButton_viewappointment_20 = new QPushButton(page_22);
+        pushButton_viewappointment_20->setObjectName("pushButton_viewappointment_20");
+        pushButton_viewappointment_20->setGeometry(QRect(0, 350, 191, 41));
+        pushButton_viewappointment_20->setFont(font7);
+        pushButton_viewappointment_20->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerpatient_24 = new QPushButton(page_22);
+        pushButton_registerpatient_24->setObjectName("pushButton_registerpatient_24");
+        pushButton_registerpatient_24->setGeometry(QRect(0, 100, 191, 41));
+        pushButton_registerpatient_24->setFont(font7);
+        pushButton_registerpatient_24->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerdoctor_24 = new QPushButton(page_22);
+        pushButton_registerdoctor_24->setObjectName("pushButton_registerdoctor_24");
+        pushButton_registerdoctor_24->setGeometry(QRect(0, 150, 191, 41));
+        pushButton_registerdoctor_24->setFont(font7);
+        pushButton_registerdoctor_24->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookaroom_20 = new QPushButton(page_22);
+        pushButton_bookaroom_20->setObjectName("pushButton_bookaroom_20");
+        pushButton_bookaroom_20->setGeometry(QRect(0, 400, 191, 41));
+        pushButton_bookaroom_20->setFont(font7);
+        pushButton_bookaroom_20->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removepatient_24 = new QPushButton(page_22);
+        pushButton_removepatient_24->setObjectName("pushButton_removepatient_24");
+        pushButton_removepatient_24->setGeometry(QRect(0, 200, 191, 41));
+        pushButton_removepatient_24->setFont(font7);
+        pushButton_removepatient_24->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookappointment_24 = new QPushButton(page_22);
+        pushButton_bookappointment_24->setObjectName("pushButton_bookappointment_24");
+        pushButton_bookappointment_24->setGeometry(QRect(0, 300, 191, 41));
+        pushButton_bookappointment_24->setFont(font7);
+        pushButton_bookappointment_24->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushbutton_logout_22 = new QPushButton(page_22);
+        pushbutton_logout_22->setObjectName("pushbutton_logout_22");
+        pushbutton_logout_22->setGeometry(QRect(0, 450, 191, 41));
+        pushbutton_logout_22->setFont(font7);
+        pushbutton_logout_22->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removedoctor_24 = new QPushButton(page_22);
+        pushButton_removedoctor_24->setObjectName("pushButton_removedoctor_24");
+        pushButton_removedoctor_24->setGeometry(QRect(0, 250, 191, 41));
+        pushButton_removedoctor_24->setFont(font7);
+        pushButton_removedoctor_24->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        stackedWidget->addWidget(page_22);
+        page_31 = new QWidget();
+        page_31->setObjectName("page_31");
+        label_appointmenttype_3 = new QLabel(page_31);
+        label_appointmenttype_3->setObjectName("label_appointmenttype_3");
+        label_appointmenttype_3->setGeometry(QRect(650, 130, 131, 41));
+        label_appointmenttype_3->setFont(font11);
+        label_appointmenttype_3->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_cencel_bookaroom = new QPushButton(page_31);
+        pushButton_cencel_bookaroom->setObjectName("pushButton_cencel_bookaroom");
+        pushButton_cencel_bookaroom->setGeometry(QRect(660, 460, 111, 41));
+        pushButton_cencel_bookaroom->setFont(font);
+        pushButton_cencel_bookaroom->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #A3282F;\n"
+"    color: black;\n"
+"}\n"
+""));
+        label_selectyourdoctor_3 = new QLabel(page_31);
+        label_selectyourdoctor_3->setObjectName("label_selectyourdoctor_3");
+        label_selectyourdoctor_3->setGeometry(QRect(650, 210, 131, 41));
+        label_selectyourdoctor_3->setFont(font11);
+        label_selectyourdoctor_3->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        label_registerdoctor_7 = new QLabel(page_31);
+        label_registerdoctor_7->setObjectName("label_registerdoctor_7");
+        label_registerdoctor_7->setGeometry(QRect(20, 30, 261, 61));
+        label_registerdoctor_7->setFont(font6);
+        label_registerdoctor_7->setStyleSheet(QString::fromUtf8(""));
+        label_enteryourage_3 = new QLabel(page_31);
+        label_enteryourage_3->setObjectName("label_enteryourage_3");
+        label_enteryourage_3->setGeometry(QRect(220, 210, 181, 31));
+        label_enteryourage_3->setFont(font11);
+        label_enteryourage_3->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        label_selectdateandtime_3 = new QLabel(page_31);
+        label_selectdateandtime_3->setObjectName("label_selectdateandtime_3");
+        label_selectdateandtime_3->setGeometry(QRect(220, 330, 241, 31));
+        label_selectdateandtime_3->setFont(font11);
+        label_selectdateandtime_3->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_confirm_bookaroom = new QPushButton(page_31);
+        pushButton_confirm_bookaroom->setObjectName("pushButton_confirm_bookaroom");
+        pushButton_confirm_bookaroom->setGeometry(QRect(800, 460, 111, 41));
+        pushButton_confirm_bookaroom->setFont(font8);
+        pushButton_confirm_bookaroom->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: GREEN;\n"
+"    color: black;\n"
+"}\n"
+""));
+        dateEdit = new QDateEdit(page_31);
+        dateEdit->setObjectName("dateEdit");
+        dateEdit->setGeometry(QRect(360, 330, 161, 26));
+        pushButton_bookappointment_32 = new QPushButton(page_31);
+        pushButton_bookappointment_32->setObjectName("pushButton_bookappointment_32");
+        pushButton_bookappointment_32->setGeometry(QRect(0, 300, 191, 41));
+        pushButton_bookappointment_32->setFont(font7);
+        pushButton_bookappointment_32->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerpatient_32 = new QPushButton(page_31);
+        pushButton_registerpatient_32->setObjectName("pushButton_registerpatient_32");
+        pushButton_registerpatient_32->setGeometry(QRect(0, 100, 191, 41));
+        pushButton_registerpatient_32->setFont(font7);
+        pushButton_registerpatient_32->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removepatient_32 = new QPushButton(page_31);
+        pushButton_removepatient_32->setObjectName("pushButton_removepatient_32");
+        pushButton_removepatient_32->setGeometry(QRect(0, 200, 191, 41));
+        pushButton_removepatient_32->setFont(font7);
+        pushButton_removepatient_32->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_registerdoctor_32 = new QPushButton(page_31);
+        pushButton_registerdoctor_32->setObjectName("pushButton_registerdoctor_32");
+        pushButton_registerdoctor_32->setGeometry(QRect(0, 150, 191, 41));
+        pushButton_registerdoctor_32->setFont(font7);
+        pushButton_registerdoctor_32->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_bookaroom_28 = new QPushButton(page_31);
+        pushButton_bookaroom_28->setObjectName("pushButton_bookaroom_28");
+        pushButton_bookaroom_28->setGeometry(QRect(0, 400, 191, 41));
+        pushButton_bookaroom_28->setFont(font7);
+        pushButton_bookaroom_28->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_removedoctor_32 = new QPushButton(page_31);
+        pushButton_removedoctor_32->setObjectName("pushButton_removedoctor_32");
+        pushButton_removedoctor_32->setGeometry(QRect(0, 250, 191, 41));
+        pushButton_removedoctor_32->setFont(font7);
+        pushButton_removedoctor_32->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushbutton_logout_30 = new QPushButton(page_31);
+        pushbutton_logout_30->setObjectName("pushbutton_logout_30");
+        pushbutton_logout_30->setGeometry(QRect(0, 450, 191, 41));
+        pushbutton_logout_30->setFont(font7);
+        pushbutton_logout_30->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        pushButton_viewappointment_28 = new QPushButton(page_31);
+        pushButton_viewappointment_28->setObjectName("pushButton_viewappointment_28");
+        pushButton_viewappointment_28->setGeometry(QRect(0, 350, 191, 41));
+        pushButton_viewappointment_28->setFont(font7);
+        pushButton_viewappointment_28->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"background: #145C7C;\n"
+"color:white;\n"
+"}\n"
+"\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color:  #BF360C;\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEditage_2 = new QLineEdit(page_31);
+        lineEditage_2->setObjectName("lineEditage_2");
+        lineEditage_2->setGeometry(QRect(410, 220, 161, 31));
+        lineEditage_2->setFont(font9);
+        lineEdit_3 = new QLineEdit(page_31);
+        lineEdit_3->setObjectName("lineEdit_3");
+        lineEdit_3->setGeometry(QRect(790, 220, 141, 31));
+        lineEdit_3->setFont(font9);
+        lineEdit_4 = new QLineEdit(page_31);
+        lineEdit_4->setObjectName("lineEdit_4");
+        lineEdit_4->setGeometry(QRect(790, 140, 141, 31));
+        lineEdit_4->setFont(font9);
+        label_enteryourname_3 = new QLabel(page_31);
+        label_enteryourname_3->setObjectName("label_enteryourname_3");
+        label_enteryourname_3->setGeometry(QRect(223, 132, 181, 31));
+        label_enteryourname_3->setFont(font11);
+        label_enteryourname_3->setStyleSheet(QString::fromUtf8("QLabel {\n"
+"    color: black;\n"
+"}\n"
+""));
+        lineEdit_enteryourname_3 = new QLineEdit(page_31);
+        lineEdit_enteryourname_3->setObjectName("lineEdit_enteryourname_3");
+        lineEdit_enteryourname_3->setGeometry(QRect(411, 132, 161, 37));
+        lineEdit_enteryourname_3->setFont(font9);
+        stackedWidget->addWidget(page_31);
+        MainWindow->setCentralWidget(centralwidget);
+        menubar = new QMenuBar(MainWindow);
+        menubar->setObjectName("menubar");
+        menubar->setGeometry(QRect(0, 0, 1312, 25));
+        MainWindow->setMenuBar(menubar);
+        statusbar = new QStatusBar(MainWindow);
+        statusbar->setObjectName("statusbar");
+        MainWindow->setStatusBar(statusbar);
+
+        retranslateUi(MainWindow);
+
+        stackedWidget->setCurrentIndex(7);
+
+
+        QMetaObject::connectSlotsByName(MainWindow);
+    } // setupUi
+
+    void retranslateUi(QMainWindow *MainWindow)
+    {
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        label_mustafaTRUST_FOUNDATION->setText(QCoreApplication::translate("MainWindow", "Mustafa Trust Hospital", nullptr));
+        username->setText(QCoreApplication::translate("MainWindow", "USER NAME :", nullptr));
+        password->setText(QCoreApplication::translate("MainWindow", "PASSWORD :", nullptr));
+        pushButton_login->setText(QCoreApplication::translate("MainWindow", "Login", nullptr));
+        pushButton_cancel->setText(QCoreApplication::translate("MainWindow", "Cancel", nullptr));
+        label_dashboard->setText(QCoreApplication::translate("MainWindow", "Medical Panel", nullptr));
+        pushButton_registerpatient->setText(QCoreApplication::translate("MainWindow", "Register Patient", nullptr));
+        pushButton_removepatient->setText(QCoreApplication::translate("MainWindow", "View Patients", nullptr));
+        pushButton_removedoctor->setText(QCoreApplication::translate("MainWindow", "View Doctors", nullptr));
+        pushButton_registerdoctor->setText(QCoreApplication::translate("MainWindow", "Register Doctor", nullptr));
+        pushButton_bookappointment->setText(QCoreApplication::translate("MainWindow", "Register Appointment", nullptr));
+        pushbutton_logout->setText(QCoreApplication::translate("MainWindow", "log out", nullptr));
+        pushButton_viewappointment->setText(QCoreApplication::translate("MainWindow", "View Appointment", nullptr));
+        pushButton_bookaroom->setText(QCoreApplication::translate("MainWindow", "Book A Room", nullptr));
+        label->setText(QString());
+        lbl_Image_Display->setText(QString());
+        label_registerpatient->setText(QCoreApplication::translate("MainWindow", "Register Patient", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "Register", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Cancel", nullptr));
+        pushButton_viewappointment_4->setText(QCoreApplication::translate("MainWindow", "View Appointment", nullptr));
+        pushbutton_logout_6->setText(QCoreApplication::translate("MainWindow", "log out", nullptr));
+        pushButton_registerdoctor_8->setText(QCoreApplication::translate("MainWindow", "Register Doctor", nullptr));
+        pushButton_removepatient_8->setText(QCoreApplication::translate("MainWindow", "View Patients", nullptr));
+        pushButton_registerpatient_8->setText(QCoreApplication::translate("MainWindow", "Register Patient", nullptr));
+        pushButton_bookaroom_4->setText(QCoreApplication::translate("MainWindow", "Book A Room", nullptr));
+        pushButton_bookappointment_8->setText(QCoreApplication::translate("MainWindow", "Register Appointment", nullptr));
+        pushButton_removedoctor_8->setText(QCoreApplication::translate("MainWindow", "View Doctors", nullptr));
+        label_name->setText(QCoreApplication::translate("MainWindow", "Name", nullptr));
+        label_age->setText(QCoreApplication::translate("MainWindow", "Age", nullptr));
+        label_patientid->setText(QCoreApplication::translate("MainWindow", "Patient ID", nullptr));
+        label_cnic->setText(QCoreApplication::translate("MainWindow", "CNIC", nullptr));
+        label_bloodgroup->setText(QCoreApplication::translate("MainWindow", "Blood Group", nullptr));
+        label_dignosis->setText(QCoreApplication::translate("MainWindow", "Diagnosis", nullptr));
+        label_registerdoctor->setText(QCoreApplication::translate("MainWindow", "Register Doctor", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("MainWindow", "Register", nullptr));
+        pushButton_4->setText(QCoreApplication::translate("MainWindow", "Cancel", nullptr));
+        pushButton_bookappointment_11->setText(QCoreApplication::translate("MainWindow", "Register Appointment", nullptr));
+        pushButton_bookaroom_7->setText(QCoreApplication::translate("MainWindow", "Book A Room", nullptr));
+        pushButton_registerpatient_11->setText(QCoreApplication::translate("MainWindow", "Register Patient", nullptr));
+        pushButton_removepatient_11->setText(QCoreApplication::translate("MainWindow", "View Patients", nullptr));
+        pushbutton_logout_9->setText(QCoreApplication::translate("MainWindow", "log out", nullptr));
+        pushButton_removedoctor_11->setText(QCoreApplication::translate("MainWindow", "View Doctors", nullptr));
+        pushButton_registerdoctor_11->setText(QCoreApplication::translate("MainWindow", "Register Doctor", nullptr));
+        pushButton_viewappointment_7->setText(QCoreApplication::translate("MainWindow", "View Appointment", nullptr));
+        label_doctorname->setText(QCoreApplication::translate("MainWindow", "Name", nullptr));
+        label_doctorage->setText(QCoreApplication::translate("MainWindow", "CNIC", nullptr));
+        label_doctorgender->setText(QCoreApplication::translate("MainWindow", "Gender", nullptr));
+        label_doctorcnic->setText(QCoreApplication::translate("MainWindow", "Age", nullptr));
+        label_doctorid->setText(QCoreApplication::translate("MainWindow", "Doctor ID", nullptr));
+        label_specialization->setText(QCoreApplication::translate("MainWindow", "Specialization", nullptr));
+        label_viewpatients->setText(QCoreApplication::translate("MainWindow", "View Patients", nullptr));
+        label_enterpatientid_viewpatient->setText(QCoreApplication::translate("MainWindow", "Enter Patient ID", nullptr));
+        pushButton_clear->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
+        pushButton_search->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
+        QTableWidgetItem *___qtablewidgetitem = tableWidget_patients->horizontalHeaderItem(0);
+        ___qtablewidgetitem->setText(QCoreApplication::translate("MainWindow", "Patient_id", nullptr));
+        QTableWidgetItem *___qtablewidgetitem1 = tableWidget_patients->horizontalHeaderItem(1);
+        ___qtablewidgetitem1->setText(QCoreApplication::translate("MainWindow", "Name", nullptr));
+        QTableWidgetItem *___qtablewidgetitem2 = tableWidget_patients->horizontalHeaderItem(2);
+        ___qtablewidgetitem2->setText(QCoreApplication::translate("MainWindow", "CNIC", nullptr));
+        QTableWidgetItem *___qtablewidgetitem3 = tableWidget_patients->horizontalHeaderItem(3);
+        ___qtablewidgetitem3->setText(QCoreApplication::translate("MainWindow", "Age", nullptr));
+        QTableWidgetItem *___qtablewidgetitem4 = tableWidget_patients->horizontalHeaderItem(4);
+        ___qtablewidgetitem4->setText(QCoreApplication::translate("MainWindow", "Blood Group", nullptr));
+        QTableWidgetItem *___qtablewidgetitem5 = tableWidget_patients->horizontalHeaderItem(5);
+        ___qtablewidgetitem5->setText(QCoreApplication::translate("MainWindow", "Diagnosis", nullptr));
+        pushButton_cancel_viewpatients->setText(QCoreApplication::translate("MainWindow", "Cancel", nullptr));
+        pushButton_remove_viewpatients->setText(QCoreApplication::translate("MainWindow", "Remove", nullptr));
+        pushButton_bookaroom_8->setText(QCoreApplication::translate("MainWindow", "Book A Room", nullptr));
+        pushButton_registerdoctor_12->setText(QCoreApplication::translate("MainWindow", "Register Doctor", nullptr));
+        pushButton_registerpatient_12->setText(QCoreApplication::translate("MainWindow", "Register Patient", nullptr));
+        pushButton_removedoctor_12->setText(QCoreApplication::translate("MainWindow", "View Doctors", nullptr));
+        pushButton_bookappointment_12->setText(QCoreApplication::translate("MainWindow", "Register Appointment", nullptr));
+        pushButton_removepatient_12->setText(QCoreApplication::translate("MainWindow", "View Patients", nullptr));
+        pushButton_viewappointment_8->setText(QCoreApplication::translate("MainWindow", "View Appointment", nullptr));
+        pushbutton_logout_10->setText(QCoreApplication::translate("MainWindow", "log out", nullptr));
+        label_viewdoctor->setText(QCoreApplication::translate("MainWindow", "View Doctors", nullptr));
+        label_enterpatientid_viewpatient_2->setText(QCoreApplication::translate("MainWindow", "Enter Doctor ID", nullptr));
+        pushButton_search_viewdoctor->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
+        pushButton_cleaar_viewdoctor->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
+        QTableWidgetItem *___qtablewidgetitem6 = tableWidget_doctor->horizontalHeaderItem(0);
+        ___qtablewidgetitem6->setText(QCoreApplication::translate("MainWindow", "Doctor_id", nullptr));
+        QTableWidgetItem *___qtablewidgetitem7 = tableWidget_doctor->horizontalHeaderItem(1);
+        ___qtablewidgetitem7->setText(QCoreApplication::translate("MainWindow", "Name", nullptr));
+        QTableWidgetItem *___qtablewidgetitem8 = tableWidget_doctor->horizontalHeaderItem(2);
+        ___qtablewidgetitem8->setText(QCoreApplication::translate("MainWindow", "CNIC", nullptr));
+        QTableWidgetItem *___qtablewidgetitem9 = tableWidget_doctor->horizontalHeaderItem(3);
+        ___qtablewidgetitem9->setText(QCoreApplication::translate("MainWindow", "Age", nullptr));
+        QTableWidgetItem *___qtablewidgetitem10 = tableWidget_doctor->horizontalHeaderItem(4);
+        ___qtablewidgetitem10->setText(QCoreApplication::translate("MainWindow", "Gender", nullptr));
+        QTableWidgetItem *___qtablewidgetitem11 = tableWidget_doctor->horizontalHeaderItem(5);
+        ___qtablewidgetitem11->setText(QCoreApplication::translate("MainWindow", "Specialization", nullptr));
+        pushButton_remove_viewdoctor->setText(QCoreApplication::translate("MainWindow", "Remove", nullptr));
+        pushButton_cancel_viewdoctor->setText(QCoreApplication::translate("MainWindow", "Cancel", nullptr));
+        pushButton_registerpatient_17->setText(QCoreApplication::translate("MainWindow", "Register Patient", nullptr));
+        pushButton_viewappointment_13->setText(QCoreApplication::translate("MainWindow", "View Appointment", nullptr));
+        pushButton_removepatient_17->setText(QCoreApplication::translate("MainWindow", "View Patients", nullptr));
+        pushButton_removedoctor_17->setText(QCoreApplication::translate("MainWindow", "View Doctors", nullptr));
+        pushbutton_logout_15->setText(QCoreApplication::translate("MainWindow", "log out", nullptr));
+        pushButton_registerdoctor_17->setText(QCoreApplication::translate("MainWindow", "Register Doctor", nullptr));
+        pushButton_bookaroom_13->setText(QCoreApplication::translate("MainWindow", "Book A Room", nullptr));
+        pushButton_bookappointment_17->setText(QCoreApplication::translate("MainWindow", "Register Appointment", nullptr));
+        label_registerdoctor_2->setText(QCoreApplication::translate("MainWindow", "Register Appointment", nullptr));
+        label_selectyourdoctor->setText(QCoreApplication::translate("MainWindow", "Doctor Name", nullptr));
+        label_selectdateandtime->setText(QCoreApplication::translate("MainWindow", "Select Date and Time", nullptr));
+        label_doctorid_9->setText(QCoreApplication::translate("MainWindow", "Doctor ID", nullptr));
+        pushButton_confirm_appointment->setText(QCoreApplication::translate("MainWindow", "Confirm", nullptr));
+        pushButton_cencel_appointment->setText(QCoreApplication::translate("MainWindow", "Cancel", nullptr));
+        pushButton_bookappointment_23->setText(QCoreApplication::translate("MainWindow", "Register Appointment", nullptr));
+        pushButton_viewappointment_19->setText(QCoreApplication::translate("MainWindow", "View Appointment", nullptr));
+        pushbutton_logout_21->setText(QCoreApplication::translate("MainWindow", "log out", nullptr));
+        pushButton_registerdoctor_23->setText(QCoreApplication::translate("MainWindow", "Register Doctor", nullptr));
+        pushButton_bookaroom_19->setText(QCoreApplication::translate("MainWindow", "Book A Room", nullptr));
+        pushButton_registerpatient_23->setText(QCoreApplication::translate("MainWindow", "Register Patient", nullptr));
+        pushButton_removedoctor_23->setText(QCoreApplication::translate("MainWindow", "View Doctors", nullptr));
+        pushButton_removepatient_23->setText(QCoreApplication::translate("MainWindow", "View Patients", nullptr));
+        label_enteryourage->setText(QCoreApplication::translate("MainWindow", "Age", nullptr));
+        label_enteryourname->setText(QCoreApplication::translate("MainWindow", "Name", nullptr));
+        label_registerdoctor_3->setText(QCoreApplication::translate("MainWindow", "View Appointment", nullptr));
+        pushButton_search_viewappointment->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
+        label_enterpatientid_viewpatient_3->setText(QCoreApplication::translate("MainWindow", "Enter Doctor ID", nullptr));
+        pushButton_clear_viewappointment->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
+        lineEdit_enterdoctorid_viewappointment->setText(QString());
+        pushButton_cancel_viewappointment->setText(QCoreApplication::translate("MainWindow", "Cancel", nullptr));
+        pushButton_remove_viewappointment->setText(QCoreApplication::translate("MainWindow", "Remove", nullptr));
+        QTableWidgetItem *___qtablewidgetitem12 = tableWidget_appointments->horizontalHeaderItem(0);
+        ___qtablewidgetitem12->setText(QCoreApplication::translate("MainWindow", "Doctor ID", nullptr));
+        QTableWidgetItem *___qtablewidgetitem13 = tableWidget_appointments->horizontalHeaderItem(1);
+        ___qtablewidgetitem13->setText(QCoreApplication::translate("MainWindow", "Doctor Name", nullptr));
+        QTableWidgetItem *___qtablewidgetitem14 = tableWidget_appointments->horizontalHeaderItem(2);
+        ___qtablewidgetitem14->setText(QCoreApplication::translate("MainWindow", "Patient Name", nullptr));
+        QTableWidgetItem *___qtablewidgetitem15 = tableWidget_appointments->horizontalHeaderItem(3);
+        ___qtablewidgetitem15->setText(QCoreApplication::translate("MainWindow", "Date and Time", nullptr));
+        pushButton_viewappointment_20->setText(QCoreApplication::translate("MainWindow", "View Appointment", nullptr));
+        pushButton_registerpatient_24->setText(QCoreApplication::translate("MainWindow", "Register Patient", nullptr));
+        pushButton_registerdoctor_24->setText(QCoreApplication::translate("MainWindow", "Register Doctor", nullptr));
+        pushButton_bookaroom_20->setText(QCoreApplication::translate("MainWindow", "Book A Room", nullptr));
+        pushButton_removepatient_24->setText(QCoreApplication::translate("MainWindow", "View Patients", nullptr));
+        pushButton_bookappointment_24->setText(QCoreApplication::translate("MainWindow", "Register Appointment", nullptr));
+        pushbutton_logout_22->setText(QCoreApplication::translate("MainWindow", "log out", nullptr));
+        pushButton_removedoctor_24->setText(QCoreApplication::translate("MainWindow", "View Doctors", nullptr));
+        label_appointmenttype_3->setText(QCoreApplication::translate("MainWindow", "Room Type ", nullptr));
+        pushButton_cencel_bookaroom->setText(QCoreApplication::translate("MainWindow", "Cancel", nullptr));
+        label_selectyourdoctor_3->setText(QCoreApplication::translate("MainWindow", "Room No", nullptr));
+        label_registerdoctor_7->setText(QCoreApplication::translate("MainWindow", "Book a Room", nullptr));
+        label_enteryourage_3->setText(QCoreApplication::translate("MainWindow", "Enter your Age", nullptr));
+        label_selectdateandtime_3->setText(QCoreApplication::translate("MainWindow", "Select Date ", nullptr));
+        pushButton_confirm_bookaroom->setText(QCoreApplication::translate("MainWindow", "Confirm", nullptr));
+        pushButton_bookappointment_32->setText(QCoreApplication::translate("MainWindow", "Register Appointment", nullptr));
+        pushButton_registerpatient_32->setText(QCoreApplication::translate("MainWindow", "Register Patient", nullptr));
+        pushButton_removepatient_32->setText(QCoreApplication::translate("MainWindow", "View Patients", nullptr));
+        pushButton_registerdoctor_32->setText(QCoreApplication::translate("MainWindow", "Register Doctor", nullptr));
+        pushButton_bookaroom_28->setText(QCoreApplication::translate("MainWindow", "Book A Room", nullptr));
+        pushButton_removedoctor_32->setText(QCoreApplication::translate("MainWindow", "View Doctors", nullptr));
+        pushbutton_logout_30->setText(QCoreApplication::translate("MainWindow", "log out", nullptr));
+        pushButton_viewappointment_28->setText(QCoreApplication::translate("MainWindow", "View Appointment", nullptr));
+        label_enteryourname_3->setText(QCoreApplication::translate("MainWindow", "Enter your Name", nullptr));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class MainWindow: public Ui_MainWindow {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_MAINWINDOW_H
